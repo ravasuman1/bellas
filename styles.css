@@ -521,7 +521,7 @@ footer {
     object-fit: cover;
 }
 
-/* ================== Responsive ================== */
+/* ================== Responsiveness and QOL =========== */
 @media (max-width: 1024px) {
     .location { flex: 1 1 48%; }
     .menu-images .row img {
