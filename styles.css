@@ -23,7 +23,7 @@ header, .topbar {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background: rgba(0, 0, 0, 0.75); /* black with 85% opacity */
+    background: rgba(0, 0, 0, 0.75); 
     position: sticky;
     top: 0;
     width: 95%;
@@ -233,7 +233,7 @@ footer {
 
 .location {
     flex: 1 1 45%;
-    background: #000000;
+    background: #000000, 0.9;
     padding: 20px;
     border-radius: 12px;
     text-align: center;
@@ -278,7 +278,7 @@ footer {
 /* ================== Catering Section ================== */
 #Catering {
     padding: 50px 20px;
-    background: #000000;
+    background: #000000, 0.95   ;
     color: #fff;
     border-top: 4px solid #D3FB05;
     border-bottom: 4px solid #D3FB05;
