@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Bella's Chargrill Chicken</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        /* Contact Form Card */
+        .contact-card {
+            max-width: 600px;
+            margin: 50px auto 0 auto;
+            background: #1a1a1a;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255, 79, 164, 0.3), 0 0 40px rgba(255, 79, 164, 0.2) inset;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            perspective: 1000px;
+        }
+
+        .contact-card:hover {
+            transform: rotateY(10deg) rotateX(5deg);
+            box-shadow: 0 0 30px #ff4fa4, 0 0 60px rgba(255, 79, 164, 0.4) inset;
+        }
+
+        .contact-card input,
+        .contact-card textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ff4fa4;
+            border-radius: 6px;
+            background: #1a1a1a;
+            color: #fff;
+            margin-bottom: 15px;
+            transition: 0.25s;
+        }
+
+        .contact-card input:focus,
+        .contact-card textarea:focus {
+            box-shadow: 0 0 12px #ff4fa4, 0 0 25px rgba(255, 79, 164, 0.5);
+            outline: none;
+        }
+
+        .contact-card button {
+            padding: 14px;
+            background: #ff4fa4;
+            color: #1a1a1a;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: 0.25s;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .contact-card button:hover {
+            box-shadow: 0 0 15px #ff4fa4, 0 0 35px rgba(255, 79, 164, 0.6);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="topbar">
+        <a href="index.html"><h1 class="logo">Bella’s</h1></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="https://bellas-chargrill-chicken-glenmorepark.square.site/#S3AATYHHHAWAXQM2TFYWEIGL" 
+               style="display: inline-block; margin-top: 25px; padding: 12px 28px; background: #ff4fa4; color: #1a1a1a; border-radius: 6px; text-decoration: none; font-weight: 600;">Order Now</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero section-glow-pink" style="background: url('./images/contact-hero.png') center/cover no-repeat; padding: 120px 20px; text-align: center; color: white;">
+        <h1 style="font-size: 3rem; margin-bottom: 10px;">Get in Touch with <span style="font-family: 'Dancing Script', cursive; color: #ff4fa4;">Bella's</span></h1>
+        <p style="font-size: 1.2rem; opacity: 0.85;">Questions, Feedback, or Catering Requests – We're Here!</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-glow-pink" id="Contact">
+        <h2>Contact Us</h2>
+        <p>Fill out the form below and we’ll get back to you as soon as possible.</p>
+
+        <div class="contact-card">
+            <form action="https://formspree.io/f/xjkpalgz" method="POST">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                <input type="tel" id="phone" name="phone" placeholder="e.g. +61 400 000 000">
+                <textarea id="message" name="message" rows="6" placeholder="Type your message here..." required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info" style="margin-top: 50px; text-align:center;">
+            <h3>Other Ways to Reach Us</h3>
+            <p>Email: <a href="mailto:info@bellaschargrill.com" style="color:#ff4fa4;">info@bellaschargrill.com</a></p>
+            <p>Phone: <a href="tel:+61400000000" style="color:#ff4fa4;">+61 400 000 000</a></p>
+            <p>Location: Glenmore Park, NSW, Australia</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 Bella's Chargrill Chicken. All Rights Reserved.
+    </footer>
+</body>
+</html>
