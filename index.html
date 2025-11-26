@@ -4,29 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bella's Chargrill Chicken</title>
+
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS Bundle (includes Popper) at the end of body -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
 <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="styles.css" />
 
 </head>
 <body>
-        <header class="topbar ">
-            <a href="index.html"><h1 class="logo">Bella’s</h1></a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="menu.html" class="active">Menu</a>
-            <a href="contact.html">Contact</a>
-            <a href="https://bellas-chargrill-chicken-glenmorepark.square.site/#S3AATYHHHAWAXQM2TFYWEIGL" style="display: inline-block; margin-top: 25px; padding: 12px 28px; background: #ff4fa4; color: #1a1a1a; border-radius: 6px; text-decoration: none; font-weight: 600;"><span class="order-buttons" style="font-family: 'Dancing Script',  cursive; color: #d3fb05;">Order Now!</span></a>
-        </nav>
-    </header>
-    <section class="hero section-glow-pink" style="background: url('./images/hero.png') center/cover no-repeat; padding: 120px 20px; text-align: center; color: white;">
-    <h1 class="pink-on-white" style="font-size: 3rem; margin-bottom: 10px;">Welcome to <span class="white-on-pink" style="font-family: 'Dancing Script', cursive; color: #ff4fa4;">Bella's</span> Chargrill Chicken</h1>
-    <p style="font-size: 1.2rem; opacity: 0.85;">Let us Grill, While you Chill</p>
-    <a href="https://bellas-chargrill-chicken-glenmorepark.square.site/#S3AATYHHHAWAXQM2TFYWEIGL" style="display: inline-flex; margin-top: 25px; padding: 12px 28px; background: #ff4fa4; color: #1a1a1a; border-radius: 6px; text-decoration: none; font-weight: 600;">
-        
-        <span class="order-buttons" style="font-family: 'Dancing Script',  cursive; color: #d3fb05; font-size: 2rem;">
-            Order Now!</span></a>
-</section>
+ <header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top px-4">
+    <a class="navbar-brand" href="index.html" style="font-family: 'Brush Script MT', cursive; color: #ff4fa4; font-size: 2rem;">
+      Bella’s
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-pink ms-lg-3" href="https://bellas-chargrill-chicken-glenmorepark.square.site/#S3AATYHHHAWAXQM2TFYWEIGL">
+            <span style="font-family: 'Dancing Script', cursive; color: #d3fb05;">Order Now!</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
 
 
@@ -81,8 +101,7 @@ At Bella’s, it’s all about good food, great taste, and warm vibes, every sin
             The Menu !
         </span>
     </h2>
-
-    <div class="menu-collage-wrapper">
+<a href="menu.html" >    <div class="menu-collage-wrapper">
         <div class="preview preview-left">
             <img id="menuPrev" src="" alt="">
         </div>
@@ -94,7 +113,8 @@ At Bella’s, it’s all about good food, great taste, and warm vibes, every sin
         <div class="preview preview-right">
             <img id="menuNext" src="" alt="">
         </div>
-    </div>
+    </div></a>
+
 
     <br>
     <a href="menu.html" class="btn"><span class="order-buttons" style="font-family: 'Dancing Script',  cursive; color: #d3fb05; font-size: 35px;">See Full Menu !</span></a>
